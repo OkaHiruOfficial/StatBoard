@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng thống kê biểu quyết</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<body>
+
+<div class="container">
+    <h1>Bảng thống kê biểu quyết</h1>
+<div class="button-container">
+    <button id="btn-export">Xuất thành ảnh</button>
+</div>
+    <div class="progress-item">
+        <div class="label-wrapper">
+            <input type="text" class="title-input" value="[Nhập Phương án 1]">
+            <div class="percent-wrapper">
+                <input type="number" class="input-percent" value="0" min="0" max="100">%
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <div class="progress-item">
+        <div class="label-wrapper">
+            <input type="text" class="title-input" value="[Nhập Phương án 2]">
+            <div class="percent-wrapper">
+                <input type="number" class="input-percent" value="0" min="0" max="100">%
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <div class="progress-item">
+        <div class="label-wrapper">
+            <input type="text" class="title-input" value="[Nhập Phương án 3]">
+            <div class="percent-wrapper">
+                <input type="number" class="input-percent" value="0" min="0" max="100">%
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
